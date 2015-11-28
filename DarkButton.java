@@ -3,7 +3,7 @@ package yourpackage;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.GuiButton;
 
-public class DarkButtons
+public class DarkButton
   extends GuiButton
 {
   private int x;
@@ -15,7 +15,7 @@ public class DarkButtons
   int alpha = 0;
   int size = 0;
   
-  public BlackButtons(int par1, int par2, int par3, int par4, int par5, String par6Str)
+  public DarkButton(int par1, int par2, int par3, int par4, int par5, String par6Str)
   {
     super(par1, par2, par3, par4, par5, par6Str);
     this.x = par2;
@@ -25,7 +25,7 @@ public class DarkButtons
     this.text = par6Str;
   }
   
-  public BlackButtons(int i, int j, int k, String stringParams)
+  public DarkButton(int i, int j, int k, String stringParams)
   {
     this(i, j, k, 200, 20, stringParams);
   }
